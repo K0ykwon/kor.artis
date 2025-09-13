@@ -1,4 +1,4 @@
-import vocabData from '../Database/vocab.json'
+import vocabData from '../database/vocab.json'
 
 export interface VocabItem {
   id: number
