@@ -4,7 +4,7 @@ import path from 'path'
 
 export async function GET() {
   try {
-    const filePath = path.join(process.cwd(), 'Database', 'KICE.json')
+    const filePath = path.join(process.cwd(), 'database', 'KICE.json')
     const fileContents = fs.readFileSync(filePath, 'utf8')
     const data = JSON.parse(fileContents)
     
